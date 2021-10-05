@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+</head>
+<style>
+
+body {
+	background-color: #3b3c40;
+	margin: 0px;
+}
+
+.text {
+
+color: white;
+border-radius: 10px;
+font-size: 20px;
+margin-left: 1px;
+margin-top: 80px;
+padding: 10px;
+}
+
+.text:hover {
+	cursor: pointer;
+	color: #bfbfbf;
+}  
+
+.a {
+
+	background-color: #44454a;
+	height: 615px;
+	width: 80px;
+	padding-left: 5px;
+	margin-left: 0;
+}
+
+.mail {
+color: white;
+margin-left: 1160px;
+margin-top: 310px;
+border-radius: 20px;
+padding: 17px;
+}
+
+.name {
+font-size: 38px;
+position: absolute;
+margin-left: 480px;
+margin-top: 140px;
+color: white;
+font-family: monospace;
+}
+
+.cp {
+font-size: 18px;
+position: absolute;
+margin-left: 480px;
+margin-top: 300px;
+color: white;
+font-family: sans-serif;
+font-weight: bold;
+background-color: #2b2b2b;
+padding: 5px;
+opacity: 70%;
+}
+
+.block {
+	width: 20px;
+	height: 20px;
+	background-color: #fff203;
+	position: relative;
+	animation-name: ex;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ex {
+	0% {}
+	10% {}
+	20% {}
+	30% {}
+	40% {}
+	50% {}
+	60% {}
+	70% {}
+	80% {}
+	90% {}
+	100% {}
+}
+	
+
+</style>
+<body>
+
+
+<div class="name">Hey There!</div>
+<div class="name" style="margin-top: 190px;">I'm Abdi Rabbani</div>
+<div class="name" style="margin-top: 245px;">A</div>
+<div class="name" style="margin-top: 245px; margin-left: 520px; color: #fff203;">Mobile Developer</div>
+<div class="cp">I can make an application and website</div>
+<div class="a">
+	<img src="pict/logo.png", width="70px", height="70px">
+
+
+<div class="text">Home</div>
+
+<div class="mail">
+	<a href="mailto:abdirabbani59@gmail.com"><img src="pict/mail.png", width="80px", height="70px"></a>
+</div>
+
+</div>
+
+</body>
+</html>
